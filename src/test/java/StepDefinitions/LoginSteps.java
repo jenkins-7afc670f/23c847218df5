@@ -29,9 +29,9 @@ public class LoginSteps {
 
         options = new ChromeOptions();
 
-        //System.setProperty("webdriver.chrome.driver", "drivers\\windows\\chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver", System.getenv("CHROMEDRIVER_PATH"));
-        options.setBinary(System.getenv("GOOGLE_CHROME_BIN"));
+        System.setProperty("webdriver.chrome.driver", "drivers\\windows\\chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", System.getenv("CHROMEDRIVER_PATH"));
+//        options.setBinary(System.getenv("GOOGLE_CHROME_BIN"));
 
         options.addArguments("--headless=new");
         options.addArguments("--disable-dev-shm-usage");
