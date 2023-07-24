@@ -65,7 +65,7 @@ public class LoginSteps {
     @Then("I see products")
     public void i_see_products() {
         // Write code here that turns the phrase above into concrete actions
-        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//span[@class='title'][text()='Products']"))));
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//span[@class='title'][text()='Productssss']"))));
     }
 
     @After
